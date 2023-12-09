@@ -32,7 +32,7 @@ fn find_numbers(line:&str) -> String {
     return first_last;
 }
 
-pub fn print_test(){
+pub fn solve(){
     let out_file: &Path = Path::new("src/advent_d1/puzzle_output.txt");
 
     if Path::new(out_file).exists(){

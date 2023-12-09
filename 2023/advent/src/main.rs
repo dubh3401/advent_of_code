@@ -1,6 +1,6 @@
-mod advent_d1 {pub mod func;}
+mod advent_d1 {pub mod trebuchet;}
 
 
 fn main() {
-    advent_d1::func::print_test();
+    advent_d1::trebuchet::solve();
 }
